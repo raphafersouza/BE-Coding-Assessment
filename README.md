@@ -13,8 +13,11 @@ As a User, I should be able to select a product from the list and get a subscrip
 3. I can buy a subscription for a single product. 
 4. I can fetch the following information related to my subscription (e.g. start date, end date, duration of the subscription, price, product). 
 5. I can pause and resume my subscription. 
-6. I can cancel my active subscription. 
-Optional Story For Implementation 
+6. I can cancel my active subscription.
+
+   
+# Optional Story For Implementation 
+
 As a User, I should be able to use a voucher code to buy products with a discounted price (fixed amount and percentage discount) 
 AC: 
 1. I can list products with an individual voucher. 
