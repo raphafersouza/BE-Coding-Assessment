@@ -22,4 +22,4 @@ AC:
 2. I can buy a product with a voucher. 
 3. A validation for the voucher should be in place. 
 4. A subscription plan is created with a discounted price. 
-Once done with the implementation, please provide us the link to the Git repository of your project with the details on how to run the SpringBoot application.
+
