@@ -4,7 +4,9 @@ Product and Subscription service:
 The task is to build a data model and a REST-based service implementing the features of the following story in Java using SpringBoot. 
 
 Implement (code) the REST endpoints for one or two of the user stories defined below. The logic should use SQL in-memory or external databases to CRUD the data.
+
 User Story 
+
 As a User, I should be able to select a product from the list and get a subscription plan for the selected product. A user can have only one active subscription per product. AC: 
 1. I can fetch a list of products. 
 2. I can fetch a single product. 
