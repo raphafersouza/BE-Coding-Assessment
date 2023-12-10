@@ -17,13 +17,34 @@ As a User, I should be able to select a product from the list and get a subscrip
 6. I can cancel my active subscription.
 
 
-# Optional Story For Implementation
+# Step-by-step guide:
 
-As a User, I should be able to use a voucher code to buy products with a discounted price (fixed amount and percentage discount)
+Navigate to Project Directory:
+- Open a terminal or command prompt and navigate to the root directory of your Spring Boot project where the pom.xml file is located.
 
-AC:
-1. I can list products with an individual voucher.
-2. I can buy a product with a voucher.
-3. A validation for the voucher should be in place.
-4. A subscription plan is created with a discounted price. 
+Run the Application:
+- Execute the following command to run your Spring Boot application:
+  - mvn spring-boot:run
+    - This command will compile your code, package it into a JAR file, and start the Spring Boot application.
 
+Access the Application:
+- By default, your Spring Boot application will run on port 8080. Open your web browser or use Postman to access the API endpoints. For example: URL: http://localhost:8080/{key}
+You can replace the key with the endpoint you want to access.
+
+Using Postman:
+
+- Open Postman and import BE-CODE collection. Set the HTTP method (GET, POST, etc.).
+  -  saveProduct
+  -  productList
+  -  getProductById
+  -  buySubscription
+  -  getSubscriptionById
+  -  pauseSubscription
+  -  resumeSubscription
+  -  cancelSubscription
+  and Click "Send" to make the request. 
+
+  If you have any questions, feel free to ask :)
+  - Best Regards,
+    - Raphaela Souza
+  
